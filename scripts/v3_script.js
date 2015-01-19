@@ -1,24 +1,4 @@
- <!--
-	Chat Messenger 
-	Programmed by: Issaq Al-Ahmed
-	Date: 03/21/2014
-	Description: This is a simple chat messenger application.
- -->
-
-    <!DOCTYPE html>
-    <html>
-        <head>
-            <meta charset="utf-8"></meta>
-            <title>
-
-                Chatbuilder
-
-            </title>
-            <script src="http://chatbuilder.hackreactor.com/ChatBuilder.js"></script>
-        </head>
-		
-        <body>
-            <script>
+				
 				delete Chat.display;  //deletion of provided functions
 				delete Chat.fetch;
 				delete Chat.send;
@@ -97,22 +77,3 @@
 						send(val); //send data
 					});
 				});
-			
-            </script>
-			
-            <h2>
-                Working Chat!
-            </h2>
-			
-            <input class="draft" type="text"></input>
-			
-            <button class="send" enabled="">
-                Send
-            </button>
-			
-            <ul class="messages">
-                
-            </ul>
-        </body>
-    </html>
-
